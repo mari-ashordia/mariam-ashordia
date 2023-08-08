@@ -1,0 +1,661 @@
+@font-face {
+    font-family: Libre;
+    src: url("/fonts/AbhayaLibre-Regular.ttf");
+}
+@font-face {
+    font-family: Quicksand;
+    src: url(/fonts/Quicksand-VariableFont_wght.ttf);
+}
+body{
+    font-family: Quicksand,serif;
+    background-color: #fffef8;
+}
+h1,h2{
+    font-family: Libre;
+}
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+.header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top:10px;
+}
+header i:first-child{
+    position:relative;
+    left:-80px;
+}
+header nav{
+    text-align: center;
+    padding-top:30px;
+    padding-bottom:30px;
+}
+header nav a{
+    text-decoration: none;
+    font-size: 13px;
+    letter-spacing: 3px;
+    color:white;
+    margin:30px;
+}
+header nav a:active{
+    border-bottom: 2px solid white;
+}
+.icons{
+    position: relative;
+    left:170px;
+}
+.icons i{
+    margin-right:-70px;
+}
+.chatWithUs{
+    transform: rotate(90deg);
+    position: fixed;
+    top:50%;
+    left:-50px;
+    color:white;
+    background-color: rgb(95, 55, 60);
+    padding:12px;
+    font-size: 13px;
+    letter-spacing: 2px;
+}
+.authentic{
+    position: relative;
+    font-size: 75px;
+    letter-spacing: 3px;
+    color:white;
+    top:70px;
+    left:210px;
+}
+.plan p{
+    position: relative;
+    color:white;
+    letter-spacing: 4px;
+    font-size: 15px;
+    top:120px;
+    left:220px;
+}
+.plan i{
+    position: relative;
+    top:102px;
+    left:470px;
+}
+header{
+    background-image:linear-gradient(to top,rgba(0,0,0,0) 0%,rgba(56, 47, 47, 0.538) 100%),url("/images/mountainLakeView.jpg");
+    background-size: 1550px;
+    height:550px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: repeat;
+    margin-bottom: 60px;
+    overflow: hidden;
+}
+.magicalMemories{
+    display: flex;
+    flex-direction: row;
+    margin-left: 140px;
+    margin-right: 140px;
+    margin-bottom:350px;
+}
+.magicalMemories .onceYouHaveTravelled{
+    position: relative;
+    top:50px;
+}
+.onceYouHaveTravelled h1{
+    margin-bottom:50px;
+}
+.trainsAndElephants{
+    position: relative;
+    margin-right: 110px;
+    margin-top:60px;
+}
+#trains{
+    width:550px;
+    z-index:0;
+}
+#elephants{
+    width:550px;
+    position:absolute;
+    top:530px;
+    left:450px;
+    z-index:-1;
+}
+.magicalMemories div h1{
+    font-size: 50px;
+    font-weight: lighter;
+    color:rgb(125, 86, 86);
+}
+.magicalMemories .onceYouHaveTravelled p:nth-child(2){
+    font-size: 18px;
+    line-height: 28px;
+    margin-bottom:30px;
+}
+.magicalMemories .onceYouHaveTravelled a{
+    text-decoration: none;
+    color:rgb(125, 86, 86);
+    letter-spacing: 3px;
+    font-weight: bold;
+}
+.magicalMemories .onceYouHaveTravelled a p{
+    width:162px;
+    font-size: 15px;
+    padding-bottom:4px;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-bottom-color: rgb(125, 86, 86);
+}
+.tailorMadeJourneys{
+    display: flex;
+    flex-direction: row;
+    margin-left:230px;
+    margin-right:230px; 
+    margin-bottom: 100px;
+}
+.headerTailorMadeJourneys{
+    margin-right:150px;
+}
+.headerTailorMadeJourneys h2{
+    font-size:50px;
+    font-weight:lighter;
+    width:350px;
+    color: rgb(125, 86, 86);
+}
+.tailorMadeJourneys .designItineraries p:first-child{
+    font-size: 18px;
+    line-height:28px;
+}
+
+.tailorMadeJourneys .designItineraries a{
+    text-decoration: none;
+    color:rgb(125, 86, 86);
+    letter-spacing: 3px;
+    font-weight: bold;
+}
+.tailorMadeJourneys .designItineraries a p{
+    width:189px;
+    border-bottom:1px solid rgb(125, 86, 86);
+    margin-top:40px;
+}
+.luxuryDestinationsWithPhotos .luxuryDestinations{
+    text-align: center;
+    margin-left:400px;
+    margin-right: 400px;
+    margin-bottom:70px;
+}
+.luxuryDestinationsWithPhotos .luxuryDestinations p{
+    font-size:18px;
+    line-height:28px;
+}
+.luxuryDestinationsWithPhotos .luxuryDestinations h2{
+    font-size:50px;
+    font-weight: lighter;
+    letter-spacing: 1px;
+    margin-bottom:45px;
+    color:rgb(125, 86, 86);
+}
+.cliffCastle{
+    display: flex;
+    flex-direction: row;
+    margin-left:130px;
+    margin-right:130px;
+    justify-content: center;
+    position: relative;
+}
+.cliffCastle{
+    position: relative;
+}
+.cliffCastle div:first-child p{
+    position:absolute;
+    font-size:29px;
+    bottom:00px;
+    color:white;
+    left:20px;
+}
+.cliffCastle div:nth-child(2) p{
+    position:absolute;
+    font-size:29px;
+    bottom:0px;
+    color:white;
+    left:648px;
+}
+.housesAborigensParrot{
+    position: relative;
+}
+.housesAborigensParrot div:first-child p{
+    position:absolute;
+    color:white;
+    font-size: 29px;
+    bottom:0px;
+    left:20px;
+}
+.housesAborigensParrot div:nth-child(2) p{
+    position:absolute;
+    color:white;
+    font-size: 29px;
+    bottom:0px;
+    left:435px;
+}
+.housesAborigensParrot div:nth-child(3) p{
+    position:absolute;
+    color:white;
+    font-size: 29px;
+    bottom:0px;
+    left:850px;
+}
+.pagodaPinkbirdPolarbearsIslandbeach{
+    position:relative;
+}
+.pagodaPinkbirdPolarbearsIslandbeach div:first-child p{
+    position: absolute;
+    font-size:29px;
+    bottom:0px;
+    color:white;
+    left:20px;
+}
+.pagodaPinkbirdPolarbearsIslandbeach div:nth-child(2) p{
+    position:absolute;
+    font-size:29px;
+    bottom:0px;
+    color:white;
+    left:335px;
+}
+.pagodaPinkbirdPolarbearsIslandbeach div:nth-child(3) p{
+    position:absolute;
+    font-size:29px;
+    bottom:0px;
+    color:white;
+    left:644px;
+}
+.pagodaPinkbirdPolarbearsIslandbeach div:nth-child(4) p{
+    position:absolute;
+    font-size:29px;
+    bottom:0px;
+    color:white;
+    left:960px;
+}
+.cliffCastle div img{
+    width:620px;
+    height:250px;
+    object-fit: cover;
+}
+.cliffCastle div img:first-child{
+    margin-right:4px;
+}
+.housesAborigensParrot{
+    display: flex;
+    flex-direction: row;
+    margin-left:130px;
+    margin-right:130px;
+    justify-content: center;
+    padding-right:2px;
+}
+.housesAborigensParrot div img{
+    width:412px;
+    height:250px;
+    object-fit: cover;
+}
+.housesAborigensParrot div:nth-child(2) img{
+    margin-left:4px;
+    margin-right:4px;
+}
+.pagodaPinkbirdPolarbearsIslandbeach{
+    display: flex;
+    flex-direction: row;
+    margin-left:130px;
+    margin-right:130px;
+    justify-content: center;
+    padding-right:2px;
+
+}
+.pagodaPinkbirdPolarbearsIslandbeach div img{
+    width:308px;
+    height:250px;
+    object-fit: cover;
+}
+.pagodaPinkbirdPolarbearsIslandbeach div:nth-child(odd) img{
+    margin-left:4px;
+    margin-right:4px;
+}
+.luxuryDestinationsWithPhotos{
+    margin-bottom: 200px;
+}
+
+.article2{
+    display: flex;
+    margin-left:230px;
+    margin-right:200px;
+
+}
+.relative{
+    position: relative;
+    margin-right:100px;
+}
+.article2 div:first-child img:nth-child(2){
+    position:absolute;
+    top:250px;
+    right:-120px;
+}
+.article2 div:nth-child(2) p:first-child{
+    letter-spacing: 2px;
+    color:rgb(125, 86, 86);
+}
+.article2 div:nth-child(2) h1{
+    font-size:50px;
+    font-weight:lighter;
+    color:rgb(125, 86, 86);
+}
+.article2 div:nth-child(2) p:nth-child(3){
+    font-size: 17px;
+    line-height: 30px;
+    margin-left:80px;
+}
+#secondP{
+    margin-left:80px;
+    margin-top:50px;
+    color:rgb(125, 86, 86);
+    border-bottom:1px solid rgb(125, 86, 86);
+    padding-bottom:4px;
+    font-size:14px;
+    font-weight:bolder;
+    letter-spacing: 4px;
+    width:138px;
+}
+.experienceDesigners a{
+    text-decoration: none;
+}
+.newsAndPress{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-content: space-between;
+}
+.newsAndPress{
+    margin-left:200px;
+    margin-right:300px;
+    margin-top:200px;
+    margin-bottom: 25px;
+    align-items: center;
+    padding-top:50px;
+}
+.newsAndPress div:nth-child(2){
+    position: relative;
+    left:80px;
+}
+.newsAndPress div:nth-child(2) p{
+    position: relative;
+    top:7px;
+    padding-bottom:2px;
+}
+.newsAndPress div:first-child p{
+    font-size: 55px;
+    letter-spacing: 2px;
+    font-weight: lighter;
+    color:rgb(125, 86, 86);
+}
+.newsAndPress div:nth-child(2) p{
+    letter-spacing: 3px;
+    font-size: 15px;
+    border-bottom:1px solid rgb(125, 86, 86);
+    color:rgb(125, 86, 86);
+}
+.newsAndPress div:nth-child(2) a{
+    text-decoration: none;
+} 
+.privatePlaces div img{
+    width:350px;
+    height:200px;
+    object-fit:cover
+}
+.privatePlaces{
+    display: flex;
+    flex-direction: row;
+    margin-left:210px;
+    margin-right:210px;
+    margin-bottom: 150px;
+}
+.privatePlaces a{
+    text-decoration: none;
+}
+.privatePlaces div p:nth-child(2){
+    font-size: 15px;
+    padding-left:20px;
+    padding-right:20px;
+    color:rgb(125, 86, 86);
+}
+.experienceDesigners h1{
+    margin-bottom: 70px;;
+}
+.experienceDesigners p:first-child{
+    margin-bottom: 15px;
+}
+.privatePlaces div{
+    background-color: white;
+    border:1px solid #eee;
+    box-shadow: 10px 10px grey;
+}
+.privatePlaces div:nth-child(2){
+    margin-left:20px;
+    margin-right:20px;
+    width:350px;
+}
+.privatePlaces div:nth-child(3){
+    width:350px;
+}
+.privatePlaces div a{
+    text-decoration: none;
+    color:rgb(125, 86, 86);
+}
+.privatePlaces div p:nth-child(3){
+    font-size: 25px;
+    padding-left:20px;
+    padding-right: 20px;
+    padding-bottom:20px;
+    color:rgb(125, 86, 86);
+}
+.privatePlaces div:nth-child(2) p:nth-child(3){
+    width:350px;
+}
+.privatePlaces div p:nth-child(2){
+    margin-top: 20px;
+}
+.privatePlaces div p:nth-child(3){
+    margin-top:10px;
+}
+
+
+.whatOurClientsSay{
+    text-align: center;
+    padding-bottom:400px;
+    padding-top:100px;
+}
+.backgroundImage{
+    background-image: url("/images/backgroundBlueImage.jpg");
+    background-size: 1580px;
+}
+.whatOurClientsSay div{
+    margin-left:400px;
+    margin-right:400px;
+}
+
+.whatOurClientsSay h1{
+    font-size: 50px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    margin-bottom:70px;
+    color:rgb(125, 86, 86);
+}
+.whatOurClientsSay p:nth-child(2){
+    font-size: 17px;
+    line-height: 28px;
+    margin-bottom:35px;
+}
+.whatOurClientsSay p:nth-child(3){
+    font-size: 30px;
+    font-weight: bold;
+    color:rgb(76, 49, 49);
+}
+
+
+footer{
+    margin-top:-70px;
+}
+.footerInfo{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-content: space-between;
+    margin:50px;
+    margin-left:130px;
+}
+.footerInfo div ul li{
+    list-style-type: none;
+    margin-bottom: 4px;
+}
+
+.footerInfo div h5,.footerInfo div h3{
+    color: white;
+}
+.footerInfo div h5{
+    margin-bottom: 15px;
+}
+.footerInfo div ul li a,.footerInfo div p{
+    text-decoration: none;
+    color:white;
+    font-size: 14px;
+
+}
+.footerInfo div ul li{
+    padding-bottom: 6px;
+}
+.footerInfo div p{
+    line-height: 30px;
+}
+#socialNetworkIcons i{
+    border:2px solid white;
+    padding:13px;
+    border-radius: 50%;
+    margin-right: 15px;
+}
+footer{
+    background-color: #222;
+    padding-top:40px;
+    padding-bottom:40px;
+
+}
+
+.copyright{
+    display: flex;
+    flex-direction: row;
+    margin-top:125px;
+    align-items: center;
+    margin-bottom:50px;
+}
+.copyright p,.copyright ul li{
+    color:white;
+    font-size: 12px;
+}
+.copyright div img{
+    margin-right:20px;
+    margin-left:140px;
+}
+.copyright p{
+    margin-right: 20px;
+}
+.copyright ul{
+    margin-left:380px;
+}
+
+.bottomList{
+    display: flex;
+}
+.copyright ul li{
+    list-style-type: none;
+    margin-right:20px;
+    font-size: 15px;
+    text-decoration: none;
+}
+#kota{
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    letter-spacing: 5px;
+    border:3px solid white;
+    padding:5px 7px;
+    margin-left:0px;
+}
+.copyright ul a{
+    text-decoration: none;
+}
+.bottomList a li{
+    font-size: 14px;
+}
+
+
+
+/* slider */
+.container{
+    padding: 10px 10px 0px 10px;
+    margin-left:500px;
+    margin-bottom:80px;
+  }
+  
+  .slideshow_wrapper{
+    width: 500px;
+    height: 280px;
+    overflow:hidden;
+  }
+  
+  .slideshow{
+    width: 1500px;
+    height: 280px;
+    margin: 0px 0px 0px -1000px;
+    position: relative; 
+    animation-name: slide_animation;
+    animation-duration: 10s;
+    animation-timing-function:linear;
+    animation-iteration-count:infinite;
+    animation-direction:alternate;
+    animation-play-state:running;
+  }
+  
+  
+  
+  .slide{
+    width: 500px;
+    height: 270px;
+    position: relative;
+    float: left;
+    overflow: hidden;
+  }
+  
+  @keyframes slide_animation{
+       0% {left: 0px;} 
+       10% {left: 0px;}
+       20% {left: 500px;}
+       30% {left: 500px;}
+       40% {left: 500px;}
+       50% {left: 500px;}
+       60% {left: 1000px;}
+       70% {left: 1000px;}
+       80% {left: 1000px;}
+       90% {left: 1000px;}
+       100% {left:1000px;}
+  }
+  
+  .slideshow img{
+    width: 500px;
+    height: 280px;
+  }
+  
+  
+  .slideshow:hover{
+    animation-play-state:paused;
+  }
+  
+  
+
+  
+  

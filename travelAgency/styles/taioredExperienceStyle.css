@@ -1,0 +1,395 @@
+@font-face {
+    font-family: Libre;
+    src: url("/fonts/AbhayaLibre-Regular.ttf");
+}
+@font-face {
+    font-family: Quicksand;
+    src: url(/fonts/Quicksand-VariableFont_wght.ttf);
+}
+body{
+    background-color: #fffef8;
+    font-family: Quicksand,serif;
+}
+h1,h2{
+    font-family: Libre;
+}
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+header{
+    background-image:linear-gradient(to top,rgba(0,0,0,0.2) 0%,rgba(0,0,0,0.2) 70%,rgba(0,0,0,0.5) 100%),url("/images/hero-tailored-experiences.jpg");
+    background-size:1550px;
+    height: 550px;
+    background-position: center;
+    background-size: cover;
+    overflow:hidden;
+}
+.worldOfWonders{
+    position: relative;
+    font-size: 75px;
+    letter-spacing: 3px;
+    color:white;
+    top:70px;
+    left:210px;
+}
+.plan p{
+    position: relative;
+    color:white;
+    letter-spacing: 4px;
+    font-size: 15px;
+    top:140px;
+    left:220px;
+    font-weight: bold;
+}
+.plan i{
+    position: relative;
+    top:120px;
+    left:463px;
+}
+.plan a{
+    text-decoration: none;
+}
+.header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top:10px;
+}
+header i:first-child{
+    position:relative;
+    left:-80px;
+}
+header nav{
+    text-align: center;
+    padding-top:30px;
+    padding-bottom:30px;
+}
+header nav a{
+    text-decoration: none;
+    font-size: 13px;
+    letter-spacing: 3px;
+    color:white;
+    margin:30px;
+}
+header nav a:active{
+    border-bottom: 2px solid white;
+}
+.icons{
+    position: relative;
+    left:170px;
+}
+.icons i{
+    margin-right:-70px;
+}
+.chatWithUs{
+    transform: rotate(90deg);
+    position: fixed;
+    top:50%;
+    left:-50px;
+    color:white;
+    background-color: rgb(95, 55, 60);
+    padding:12px;
+    font-size: 13px;
+    letter-spacing: 2px;
+}
+main section article{
+    width:50%;
+    margin:auto;
+    text-align: center;
+}
+main section article h1{
+    font-size: 50px;
+    font-weight: 100;
+    margin-bottom: 20px;
+    margin-top:80px;
+}
+main section article p{
+    line-height: 30px;
+    font-size:18px;
+
+}
+main section .images img{
+    width: 300px;
+    height:300px;
+    object-fit: cover;
+    filter:brightness(90%);
+}
+.images{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin-left:150px;
+    margin-right:150px;
+    margin-top:100px;
+}
+:root{
+    --globalFontSize:28px;
+}
+.photography{
+    position: relative;
+}
+.photography p{
+    position: absolute;
+    left:20px;
+    bottom:20px;
+    font-size:var(--globalFontSize);
+    color:white;
+}
+.adventure{
+    position: relative;
+}
+.adventure p{
+    position: absolute;
+    left:20px;
+    bottom:20px;
+    font-size:var(--globalFontSize);
+    color:white;
+}
+.celebration{
+    position: relative;
+}
+.celebration p{
+    position: absolute;
+    left:20px;
+    bottom:20px;
+    font-size:var(--globalFontSize);
+    color:white;
+}
+.culinary{
+    position: relative;
+}
+.culinary p{
+    position: absolute;
+    left:20px;
+    bottom:20px;
+    font-size:var(--globalFontSize);
+    color:white;
+}
+.family{
+    position: relative;
+}
+.family p{
+    position: absolute;
+    left:20px;
+    bottom:20px;
+    font-size:var(--globalFontSize);
+    color:white;
+}
+.speciality{
+    position: relative;
+}
+.speciality p{
+    position: absolute;
+    left:20px;
+    bottom:20px;
+    font-size:var(--globalFontSize);
+    color:white;
+}
+.ultraluxe{
+    position: relative;
+}
+.ultraluxe p{
+    position: absolute;
+    left:20px;
+    bottom:20px;
+    font-size:var(--globalFontSize);
+    color:white;
+}
+.voyages{
+    position: relative;
+}
+.voyages p{
+    position: absolute;
+    left:20px;
+    bottom:20px;
+    font-size:var(--globalFontSize);
+    color:white;
+}
+.viewAll{
+    position: relative;
+}
+.viewAll p{
+    position: absolute;
+    left:20px;
+    bottom:20px;
+    font-size:var(--globalFontSize);
+    color:white;
+}
+
+.relative{
+    position: relative;
+    float:left;
+
+}
+.experienceDesigners{
+    position: relative;
+    left:200px;
+ 
+}
+.experienceDesigners h1{
+    position: relative;
+    left:360px;
+    top:-400px;
+    text-align: left;
+    color: rgb(95, 55, 60);
+    font-size:60px;
+    width:500px;
+}
+.experienceDesigners .pTag{
+    position: relative;
+    left:400px;
+    bottom:150px;
+    text-align: left;
+}
+.experienceDesigners #firstP{
+    margin-bottom:30px;
+    top:-350px;
+}
+.experienceDesigners p:first-child{
+    position: relative;
+    left:-160px;
+    font-size:14px;
+    letter-spacing: 2px;
+    bottom:-15px;
+}
+.experienceDesigners #secondP{
+    border-bottom:1px solid  rgb(95, 55, 60);
+    width:135px;
+    position: relative;
+    left:400px;
+    font-weight: bold;
+    bottom:350px;
+    letter-spacing: 4px;
+    color: rgb(95, 55, 60);
+}
+.experienceDesigners a{
+    text-decoration: none;
+    color:black;
+}
+/* mishos vkitxo*/
+.experienceDesigners #secondP:hover{
+    border-bottom-style:none;
+}
+.relative #img2{
+    position: absolute;
+    top:250px;
+    right:0px;
+    left:200px;
+}
+.article2{
+    margin-top:120px;
+    margin-bottom:-200px;
+    margin-left:230px;
+    margin-right: 0;
+
+}
+.article3 {
+    width:1550px;
+    padding-left:400px;
+    padding-right:400px;
+    padding-bottom: 300px;
+    padding-top:100px;
+    margin-bottom:0px;
+    background-image: url("/images/backgroundMountains.jpg");
+    background-position: center;
+    background-size: cover;
+    overflow: hidden;
+}
+.article3 h1,.article3 p:nth-child(3){
+    color: rgb(95, 55, 60);
+}
+.article3 p:nth-child(2){
+    margin-top:70px;
+    margin-bottom: 30px;
+}
+.footerInfo{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-content: space-between;
+    margin:50px;
+    margin-left:130px;
+}
+.footerInfo div ul li{
+    list-style-type: none;
+    margin-bottom: 4px;
+}
+
+.footerInfo div h5,.footerInfo div h3{
+    color: white;
+}
+.footerInfo div h5{
+    margin-bottom: 15px;
+}
+.footerInfo div ul li a,.footerInfo div p{
+    text-decoration: none;
+    color:white;
+    font-size: 14px;
+
+}
+.footerInfo div ul li{
+    padding-bottom: 6px;
+}
+.footerInfo div p{
+    line-height: 30px;
+}
+#socialNetworkIcons i{
+    border:2px solid white;
+    padding:13px;
+    border-radius: 50%;
+    margin-right: 15px;
+}
+footer{
+    background-color: #222;
+    padding-top:40px;
+    padding-bottom:40px;
+    margin-bottom:0px;
+}
+
+.copyright{
+    display: flex;
+    flex-direction: row;
+    margin-top:125px;
+    align-items: center;
+    margin-bottom:50px;
+}
+.copyright p,.copyright ul li{
+    color:white;
+    font-size: 12px;
+}
+.copyright div img{
+    margin-right:20px;
+    margin-left:140px;
+}
+.copyright p{
+    margin-right: 20px;
+}
+.copyright ul{
+    margin-left:380px;
+}
+
+.bottomList{
+    display: flex;
+}
+.copyright ul li{
+    list-style-type: none;
+    margin-right:20px;
+    font-size: 15px;
+    text-decoration: none;
+}
+#kota{
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    letter-spacing: 5px;
+    border:3px solid white;
+    padding:5px 7px;
+    margin-left:0px;
+}
+.copyright ul a{
+    text-decoration: none;
+}
+.bottomList a li{
+    font-size: 14px;
+}
