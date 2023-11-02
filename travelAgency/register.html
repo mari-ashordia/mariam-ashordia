@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="/styles/registration.css">
+        <script src="https://kit.fontawesome.com/da0f792e0f.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <div class="header">
+            <a href="/index.html" id="homeIcon"><i class="fa-brands fa-phoenix-framework fa-2xl" style="color: #ffffff;"></i></a>
+            <i class="fa-solid fa-bars fa-2xl" id="burgerMenu" onclick = "showNav()"></i>
+            <div class="navLinks">
+                <a href="/taioredExperiences.html">TAILORED EXPERIENCES</a>
+                <a href="/privateRentals.html">PRIVATE RENTALS</a>
+                <a href="/aboutUs.html">ABOUT US</a>
+                <a href="/blogAndPress.html">BLOG & PRESS</a>
+                <a href="/contactUs.html">CONTACT US</a>
+            </div>
+        </div>
+        <div class="formContainer">
+            <form>
+                <div>
+                    <h1>Sign Up</h1>
+                    <p>It's quick and easy.</p>
+                </div>
+                <hr>
+                <div class="fullName">
+                    <input type="text" id="firstname" name="firstname" placeholder="First name" required>
+                    <input type="text" id="surname" name="surname" placeholder="Surname" required>
+                </div>
+                <input type="email" id="email" name="email" placeholder="Email address" required patter="^[\w.-]+@[a-zA-Z_-]+?(?:\.[a-zA-Z]{2,6})+$"><br>
+                <input type="password" name="password" id="password" placeholder="New password" pattern="^(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,16}$" maxlength="16" title = "Password must include at least one upper-case letter and at least one digit!" required>
+                <i class="fa-solid fa-eye fa-sm" id="eyeIcon" style="color: #979597;" onclick="showPassword()"></i>
+                <p style = "margin-bottom:3px; font-size : 14px; color:rgb(102, 100, 100)">Date of birth</p>
+                <div class="dateOfBirth">
+                    <select id="date" class = "birthday">
+                        <option>1</option>
+                        <option>2</option>
+                        <option>3</option>
+                        <option>4</option>
+                        <option>5</option>
+                        <option>6</option>
+                        <option>7</option>
+                        <option>8</option>
+                        <option>9</option>
+                        <option>10</option>
+                        <option>11</option>
+                        <option>12</option>
+                        <option>13</option>
+                        <option>14</option>
+                        <option>15</option>
+                        <option>16</option>
+                        <option>17</option>
+                        <option>18</option>
+                        <option>19</option>
+                        <option>20</option>
+                        <option>21</option>
+                        <option>22</option>
+                        <option>23</option>
+                        <option>24</option>
+                        <option>25</option>
+                        <option>26</option>
+                        <option>27</option>
+                        <option>28</option>
+                        <option>29</option>
+                        <option>30</option>
+                        <option>31</option>
+                    </select>
+                    <select id="month" class="birthday">
+                        <option>Jan</option>
+                        <option>Feb</option>
+                        <option>Mar</option>
+                        <option>Apr</option>
+                        <option>May</option>
+                        <option>Jun</option>
+                        <option>Jul</option>
+                        <option>Aug</option>
+                        <option>Sep</option>
+                        <option>Oct</option>
+                        <option>Nov</option>
+                        <option>Dec</option>
+                    </select>
+                    <input type="number" name="yearofBirth" id="year" class = "birthday" min = "1905" max = "2023" value = "2023">
+                </div>
+                <div class="gender">
+                    <div class="female">
+                        <label for = "female" class="label">Female</label>
+                        <input type="radio" name="gender" id="female" value = "female">
+                    </div>
+                    <div class="male">
+                        <label for = "male" class="label">Male</label>
+                        <input type="radio" name="gender" id="male" value = "male">
+                    </div>
+                    <div class="custom">
+                        <label for = "custom" class="label">Custom</label>
+                        <input type="radio" name="gender" id="custom" value = "custom">
+                    </div>
+                    
+                </div>
+                
+                <p style = "margin-top: 25px; font-size: 14px;color:grey;">By clicking Sign Up, you agree to our Terms, <a href="#">Privacy Policy</a> and <a href="#">Cookies Policy.</a> You may receive SMS notifications from us and can opt out at any time.</p>
+                <!-- <input type="submit" name = "submit" id="submit" value = "Sign Up" onclick="registrationHandler()"> -->
+                <button type = "submit" id="submit" name="submit" onclick="registrationHandler()">Sign Up</button>
+            </form>
+        </div>
+        
+        
+
+        <script type = "text/javascript" src="/scripts/registration.js"></script>
+        <script type="text/javascript" src="/scripts/burgerMenu.js"></script>
+        <script type="text/javascript" src="/scripts/showPassword.js"></script>
+    </body>
+</html>

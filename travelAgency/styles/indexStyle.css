@@ -33,6 +33,12 @@ header nav{
     text-align: center;
     padding-top:30px;
     padding-bottom:30px;
+    display: flex;
+    justify-content: center;
+}
+header .header{
+    position: relative;
+    bottom:20px;
 }
 header nav a{
     text-decoration: none;
@@ -46,7 +52,8 @@ header nav a:active{
 }
 .icons{
     position: relative;
-    left:170px;
+    left:180px;
+    bottom:-40px;
 }
 .icons i{
     margin-right:-70px;
@@ -656,6 +663,19 @@ footer{
   }
   
   
-
+.signin{
+    position: relative;
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    left:220px;
+   
+}
+.signin p{
+    position: relative;
+    right:70px;
+    bottom:6px;
+    font-size:15px;
+}
   
   

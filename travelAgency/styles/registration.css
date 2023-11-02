@@ -1,0 +1,173 @@
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+}
+body{
+    background-color: beige;
+}
+.formContainer{
+    background-color: white;
+    width:450px;
+    margin:auto;
+    margin-top:70px;
+    padding:20px;
+    height:550px;
+    border:1px solid grey;
+    border-radius: 10px;
+    
+}
+form div:first-child p{
+    font-size: 18px;
+    margin-top:5px;
+    color:grey;
+    letter-spacing:1px;
+    margin-bottom: 15px;
+}
+form div:first-child h1{
+    font-size:35px;
+    letter-spacing: 1px;
+}
+.fullName{
+    margin-top:20px;
+    display: flex;
+    justify-content: space-between;
+}
+.fullName #firstname, .fullName #surname, #email, #password{
+    height:40px;
+    width:200px;
+    font-size: 16px;
+    padding-left:7px;
+    border:1px solid grey;
+    border-radius: 5px;
+    margin-bottom:8px;
+    background-color: rgb(245, 245, 245);
+}
+#email,#password{
+    width:410px;
+    margin-bottom: 10px;
+}
+.dateOfBirth{
+    margin-bottom:12px;
+}
+.dateOfBirth .birthday{
+    width:130px;
+    height:40px;
+    font-size: 16px;
+    padding-left:7px;
+    border:1px solid grey;
+    border-radius: 5px;
+}
+.dateOfBirth{
+    display: flex;
+    justify-content: space-between;
+}
+.gender{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.gender .female,.gender .male,.gender .custom{
+    width:130px;
+    height:40px;
+    font-size: 16px;
+    padding-left:7px;
+    border:1px solid grey;
+    border-radius: 5px;
+}
+.label{
+    position: relative;
+    top:9px;
+    font-size:17px;
+    
+}
+#female{
+    position: relative;
+    top:11px;
+    left:45px;
+}
+#male{
+    position: relative;
+    top:11px;
+    left:61px;
+}
+#custom{
+    position: relative;
+    top:11px;
+    left:42px;
+}
+#submit{
+    position: relative;
+    top:27px;
+    left:114px;
+    padding:5px;
+    font-size: 20px;
+    letter-spacing: 1px;
+    width:180px;
+    border:1px solid grey;
+    border-radius: 7px;
+    background-color: pink;
+    color:white;
+    font-weight: bold;
+    cursor:pointer;
+}
+
+.header{
+    position: relative;
+}
+#burgerMenu{
+    position: absolute;
+    right:30px;
+    top:45px;
+    display:block;
+    cursor:pointer;
+}
+.navLinks a{
+    text-decoration: none;
+    color:black;
+    display: block;
+    text-align: right;
+    padding-bottom:20px;
+    padding-right:20px;
+    padding-left:20px;
+    padding-top:20px;
+    background-color: #ffc0cb;
+    border:0 solid #ffc0cb;
+    border-radius: 20px;
+}
+.navLinks{
+    position: absolute;
+    right:20px;
+    top:70px;
+    background-color: #ffc0cb;
+    border:0 solid #ffc0cb;
+    border-radius: 20px;
+    display:none;
+    margin-top:20px;
+}
+.navLinks a:hover{
+    background-color: #D5C0FF;
+    color:white;
+}
+#homeIcon{
+    position: relative;
+    left:30px;
+    top:20px;
+    display: inline-block;
+    padding-top:25px;
+    padding-left:15px;
+    padding-right:15px;
+    padding-bottom:20px;
+    border:0 solid #ffc0cb; 
+    background-color: #ffc0cb;
+    border-radius: 50%;
+    text-align:center;
+}
+#eyeIcon{
+    position: relative;
+    bottom:38px;
+    left:380px;
+}
+#eyeIcon:hover{
+    cursor: pointer;
+}

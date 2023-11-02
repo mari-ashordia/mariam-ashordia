@@ -1,0 +1,23 @@
+{
+    "country" : "Georgia",
+    "capital" : "Tbilisi",
+    "population" : "3.7 million",
+    "area" : "69.700 square kilometres",
+    "officialLanguage" : "Georgian",
+    "ethnicGroups" : 
+    {
+        "Georgians" : "86.8%",
+        "Azerbaijans" : "6.2%",
+        "Armenians" : "4.5%",
+        "Russians" : "0.7%",
+        "other" : "2.1%"
+    },
+    "presidents" : 
+    [
+        {"First" : ["Zviad Gamsakhurdia", "1991-1992"]}, 
+        {"Second" : ["Eduard Shevardnadze" , "1995-2003"]}, 
+        {"Third" : ["Mikheil Saakashvili", "2004-2013"]}, 
+        {"Fourth" : ["Giorgi Margvelashvili","2013-2018"]},
+        {"Fifth" : ["Salome Zurabishvili","2018-"]}
+    ]
+}

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="/styles/signin.css">
+        <script src="https://kit.fontawesome.com/da0f792e0f.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <div class="header">
+            <a href="/index.html" id="homeIcon"><i class="fa-brands fa-phoenix-framework fa-2xl" style="color: #ffffff;"></i></a>
+            <i class="fa-solid fa-bars fa-2xl" id="burgerMenu" onclick = "showNav()"></i>
+            <div class="navLinks">
+                <a href="/taioredExperiences.html">TAILORED EXPERIENCES</a>
+                <a href="/privateRentals.html">PRIVATE RENTALS</a>
+                <a href="/aboutUs.html">ABOUT US</a>
+                <a href="/blogAndPress.html">BLOG & PRESS</a>
+                <a href="/contactUs.html">CONTACT US</a>
+            </div>
+        </div>
+        <div class="signinContainer">
+            <h2>Sign in</h2>
+            <form class="signinForm">
+                <input type="email" name="email" id="email" placeholder="Email" pattern="^[\w.-]+@[a-zA-Z_-]+?(?:\.[a-zA-Z]{2,6})+$" required>
+                <input type="password" name="password" id="password" placeholder="Password" pattern="^(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,16}$" maxlength="16" title = "Password must include at least one upper-case letter and at least one digit!" required>
+                <i class="fa-solid fa-eye fa-sm" id="eyeIcon" style="color: #979597;" onclick="showPassword()"></i>
+                <input type="checkbox" name="rememberMe" id="rememberMe">
+                <label for="rememberMe" id="rememberMeLabel"><small>Remember me</small></label>
+                <input type="submit" id="submitButton" name="submit" value="Log in" onclick="signinHandler()">
+                <div class="forgottenPassword">
+                    <a href="#"><p id="forgottenPassword">Forgotten password?</p></a>
+                    <hr>
+                </div>
+                <a href="/register.html"><button type="button" id="newAccountButton">Create new account</button></a>
+            </form>
+        </div>
+
+
+        <script type = "text/javasxript" src="/scripts/singin.js"></script>
+        <script type="text/javascript" src = "/scripts/burgerMenu.js"></script>
+        <script type="text/javascript" src="/scripts/showPassword.js"></script>
+        
+    </body>
+</html>

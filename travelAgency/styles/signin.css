@@ -1,0 +1,152 @@
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+}
+body{
+    background-color: beige;
+}
+.signinContainer{
+    background-color: white;
+    width:450px;
+    margin:auto;
+    margin-top:70px;
+    padding:20px;
+    height:500px;
+    border:1px solid grey;
+    border-radius: 10px;
+    padding-top:40px;
+}
+.signinForm{
+    display: flex;
+    flex-direction: column;
+}
+.signinContainer h2{
+    font-size:35px;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+}
+#email,#password{
+    margin-top:10px;
+    height:40px;
+    width:410px;
+    font-size: 16px;
+    padding-left:7px;
+    border:1px solid grey;
+    border-radius: 5px;
+    background-color: rgb(245, 245, 245);
+}
+#rememberMe{
+    position: relative;
+    top:20px;
+    left:-197px;
+}
+#rememberMeLabel{
+    position: relative;
+    top:4px;
+    left:20px;
+}
+#submitButton{
+    position: relative;
+    top:30px;
+    height:40px;
+    width:410px;
+    font-size: 20px;
+    font-weight:bold;
+    padding-left:7px;
+    border:1px solid grey;
+    border-radius: 5px;
+    background-color: #ffc0cb;
+    color:white;
+    cursor:pointer;
+}
+#newAccountButton{
+    position: relative;
+    top:90px;
+    left:82px;
+    height:40px;
+    width:250px;
+    font-size: 18px;
+    font-weight:bold;
+    padding-left:7px;
+    border:1px solid rgb(170, 166, 166);
+    border-radius: 5px;
+    background-color:pink;
+    color:white;
+    cursor:pointer;
+}
+.forgottenPassword{
+    position: relative;
+    top:55px;
+    font-size:16px;
+    letter-spacing: 1px;
+    
+}
+.forgottenPassword p{
+    margin-bottom:30px;
+    text-align: center;
+}
+.forgottenPassword a{
+    text-decoration: none;
+    color:#000;
+}
+
+.header{
+    position: relative;
+}
+#burgerMenu{
+    position: absolute;
+    right:30px;
+    top:45px;
+    display:block;
+    cursor:pointer;
+}
+.navLinks a{
+    text-decoration: none;
+    color:black;
+    display: block;
+    text-align: right;
+    padding-bottom:20px;
+    padding-right:20px;
+    padding-left:20px;
+    padding-top:20px;
+    background-color: #ffc0cb;
+    border:0 solid #ffc0cb;
+    border-radius: 20px;
+}
+.navLinks{
+    position: absolute;
+    right:20px;
+    top:70px;
+    background-color: #ffc0cb;
+    border:0 solid #ffc0cb;
+    border-radius: 20px;
+    display:none;
+    margin-top:20px;
+}
+.navLinks a:hover{
+    background-color: #D5C0FF;
+    color:white;
+}
+#homeIcon{
+    position: relative;
+    left:30px;
+    top:20px;
+    display: inline-block;
+    padding-top:25px;
+    padding-left:15px;
+    padding-right:15px;
+    padding-bottom:20px;
+    border:0 solid #ffc0cb; 
+    background-color: #ffc0cb;
+    border-radius: 50%;
+    text-align:center;
+}
+#eyeIcon{
+    position: relative;
+    bottom:20px;
+    left:380px;
+}
+#eyeIcon:hover{
+    cursor: pointer;
+}

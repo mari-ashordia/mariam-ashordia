@@ -65,6 +65,12 @@ header nav{
     text-align: center;
     padding-top:30px;
     padding-bottom:30px;
+    display: flex;
+    justify-content: center;
+}
+header .header{
+    position: relative;
+    bottom:20px;
 }
 header nav a{
     text-decoration: none;
@@ -78,7 +84,8 @@ header nav a:active{
 }
 .icons{
     position: relative;
-    left:170px;
+    left:180px;
+    bottom:-40px;
 }
 .icons i{
     margin-right:-70px;
@@ -392,4 +399,150 @@ footer{
 }
 .bottomList a li{
     font-size: 14px;
+}
+
+.signin{
+    position: relative;
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    left:220px;
+   
+}
+.signin p{
+    position: relative;
+    right:70px;
+    bottom:6px;
+    font-size:15px;
+}
+
+#georgia{
+    margin-top:150px;
+    margin-bottom:50px;
+    padding:20px 40px;
+    font-size:17px;
+    letter-spacing: 1px;
+    color:#fff;
+    background-color: #46375F;
+    position:relative;
+    left:680px;
+    cursor:pointer;
+    border:2px solid black;
+    border-radius:8px;
+}
+.infoAboutGeorgia{
+    text-align: left;
+    width:50%;
+    margin:auto;
+    background-color: #fffef8;
+    padding:45px;
+    margin-bottom:70px;
+
+}
+.sliderContainer{
+    max-width:1000px;
+    position: relative;
+    margin:auto;
+}
+.slides img{
+    width: 100%;
+    height:600px;
+    object-fit: cover;
+}
+.sliderCount{
+    position:absolute;
+    top:8px;
+    left:8px;
+    color:white;
+}
+.imgCapion{
+    color: #f2f2f2;
+    font-size: 20px;
+    letter-spacing: 1px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 20px;
+    font-weight: bold;
+    width: 100%;
+    text-align: center;
+}
+.slides{
+    display:none;
+}
+#leftArrow, #rightArrow{
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    margin-top: -22px;
+    font-weight: bold;
+    font-size: 24px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+}
+#rightArrow{
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+#leftArrow:hover, #rightArrow:hover {
+    background-color: rgba(0,0,0,0.8);
+  }
+@keyframes sliderAnimation{
+    from{opacity:0.4}
+    to{opacity:1}
+}
+.slides{
+    animation-name: sliderAnimation;
+    animation-duration: 2s;
+}
+
+.currencyConverter{
+    width:40%;
+    margin:auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: space-between;
+    row-gap: 15px;
+    margin-bottom: 100px;
+    box-shadow: 0 0 10px #AAA;
+    border-radius: 20px;
+    background-color: white;
+}
+.currencyConverter h1{
+    margin-bottom: 30px;
+    margin-top:30px;
+    letter-spacing: 1px;
+    font-size: 32px;
+}
+.inputCurrency, .currencyTypes{
+    height:50px;
+    width:250px;
+    font-size: 17px;
+    padding-left:10px;
+    border-color:#AAA;
+}
+.inputCurrency{
+    background-color: #CDD7D6;
+}
+#submit{
+    margin-bottom:30px;
+    margin-top:10px;
+    width:100px;
+    height:50px;
+    padding:10px;
+    font-size: 16px;
+    background-color: #375F5A;
+    color:white;
+    border-radius: 5px;
+    transition: background-color 2s;
+}
+#submit:hover{
+    cursor: pointer;
+    background-color: #46375F;
+}
+.inputCurrency:focus{
+    background-color: #CDD7D6;
 }
